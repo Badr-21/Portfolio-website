@@ -17,11 +17,8 @@ function Header({
 
    const controlHeader = () => {
       if (window.scrollY > lastScrollY) {
-         console.log(window.scrollY, lastScrollY);
          setShow(false);
       } else {
-         console.log(window.scrollY, lastScrollY);
-
          setShow(true);
       }
       setLastScrollY(window.scrollY);
