@@ -8,6 +8,7 @@ export default {
             SkyBlue: "#75CEEF",
             AliceBlue: "#F4F8FD",
             RichBlack: "#00090B",
+            DavysGray: "#4F4F4F",
          },
       },
    },
