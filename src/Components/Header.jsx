@@ -33,7 +33,7 @@ function Header({
       <section
          className={`${
             show ? "top-0" : "top-[-5rem]"
-         } w-full flex justify-between items-center py-4 px-8 shadow sticky transition-top duration-300 bg-white`}
+         } w-full flex justify-between items-center py-4 px-8 shadow sticky transition-top duration-300 bg-white z-10`}
       >
          <img src={Logo} alt="logo" className="w-[10rem]" />
          <img src={HamburgerIcon} alt="hamburger icon" className="hidden" />
