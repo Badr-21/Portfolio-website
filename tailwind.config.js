@@ -10,6 +10,9 @@ export default {
             RichBlack: "#00090B",
             DavysGray: "#4F4F4F",
          },
+         transitionDuration: {
+            7000: "7000ms",
+         },
       },
    },
    plugins: [],
