@@ -1,5 +1,6 @@
 import AboutMe from "./Components/AboutMe";
 import ContactMe from "./Components/ContactMe";
+import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import MyProjects from "./Components/MyProjects";
@@ -41,6 +42,7 @@ function App() {
             <AboutMe ref={aboutMeRef} />
             <MyProjects ref={myProjectsRef} />
             <ContactMe ref={contactMeRef} />
+            <Footer />
             <img
                src={arrowUpIcon}
                alt="arrow up icon"
