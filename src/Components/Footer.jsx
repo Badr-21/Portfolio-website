@@ -1,10 +1,10 @@
-import LinkedinIcon from "../assets/linkedin-icon.svg";
-import GithubIcon from "../assets/github-icon.svg";
+import LinkedinWhiteIcon from "../assets/linkedin-white-icon.svg";
+import GithubWhiteIcon from "../assets/github-white-icon.svg";
 
 function Footer() {
    return (
-      <section className="py-8 px-36 flex justify-between bg-AliceBlue">
-         <p className="text-xl font-semibold">
+      <section className="py-12 px-36 flex justify-between bg-DavysGray">
+         <p className="text-xl font-semibold text-white">
             Designed & build by Badreddine Boudaoud &copy; 2023
          </p>
          <div className="flex gap-x-4">
@@ -15,14 +15,14 @@ function Footer() {
             >
                <img
                   className="w-8 [@media(hover:hover){&:hover}]:filter-icon hover:cursor-pointer"
-                  src={LinkedinIcon}
+                  src={LinkedinWhiteIcon}
                   alt="linkedin icon"
                />
             </a>
             <a href="https://github.com/Badr-21" target="_blank" rel="noreferrer">
                <img
                   className="w-8 [@media(hover:hover){&:hover}]:filter-icon hover:cursor-pointer"
-                  src={GithubIcon}
+                  src={GithubWhiteIcon}
                   alt="github icon"
                />
             </a>
