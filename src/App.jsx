@@ -4,6 +4,7 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import MyProjects from "./Components/MyProjects";
+import ScrollProgress from "./Components/ScrollProgress";
 import arrowUpIcon from "./assets/arrow-up.svg";
 import { useRef, useState } from "react";
 
@@ -28,6 +29,7 @@ function App() {
    };
    return (
       <>
+         <ScrollProgress />
          <Header
             homeRef={homeRef}
             aboutMeRef={aboutMeRef}
