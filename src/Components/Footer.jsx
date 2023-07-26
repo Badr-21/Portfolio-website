@@ -7,21 +7,22 @@ function Footer() {
          <p className="text-xl font-semibold text-white">
             Designed & build by Badreddine Boudaoud &copy; 2023
          </p>
-         <div className="flex gap-x-4">
+         <div className="flex items-center gap-x-4">
+            <p className="text-white font-medium">badreddine.boudaoud.dev@gmail.com</p>
             <a
                href="https://www.linkedin.com/in/badreddine-boudaoud-abb61b282/"
                target="_blank"
                rel="noreferrer"
             >
                <img
-                  className="w-8 [@media(hover:hover){&:hover}]:filter-icon hover:cursor-pointer"
+                  className="w-6 [@media(hover:hover){&:hover}]:filter-icon hover:cursor-pointer"
                   src={LinkedinWhiteIcon}
                   alt="linkedin icon"
                />
             </a>
             <a href="https://github.com/Badr-21" target="_blank" rel="noreferrer">
                <img
-                  className="w-8 [@media(hover:hover){&:hover}]:filter-icon hover:cursor-pointer"
+                  className="w-6 [@media(hover:hover){&:hover}]:filter-icon hover:cursor-pointer"
                   src={GithubWhiteIcon}
                   alt="github icon"
                />
