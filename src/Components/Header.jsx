@@ -30,6 +30,13 @@ function Header({
             setShowNavBar(true);
          }
          setLastScrollY(window.scrollY);
+      } else {
+         if (window.scrollY > lastScrollY) {
+            setShowNavBar(true);
+         } else {
+            setShowNavBar(true);
+         }
+         setLastScrollY(window.scrollY);
       }
    };
 
@@ -57,16 +64,6 @@ function Header({
       return () => window.removeEventListener("rezise", handleResponsiveHeader);
    }, []);
 
-   // useEffect(() => {
-   //    const closeSideBar = (e) => {
-   //       if (!navRef.current?.contains(e.target)) {
-   //          setShowSideBar(false);
-   //       }
-   //    };
-   //    document.body.addEventListener("click", closeSideBar, true);
-   //    return () => document.body.removeEventListener("click", closeSideBar, true);
-   // });
-
    return (
       <section
          className={`${
@@ -89,7 +86,7 @@ function Header({
             ref={navRef}
             className={`${
                showSideBar ? "left-[0]" : "left-[-100%]"
-            } w-full h-screen p-8 sm:w-fit transition-left absolute top-0 flex flex-col items-center gap-y-8 duration-300 sm:static sm:shadow-none bg-white`}
+            } w-full sm:w-fit h-screen sm:h-auto p-8 sm:p-0 transition-left absolute top-0 flex flex-col items-center gap-y-8 duration-300 sm:static sm:shadow-none bg-white`}
          >
             <img
                src={CloseIcon}
