@@ -2,7 +2,7 @@ import { forwardRef } from "react";
 
 const ContactMe = forwardRef(function ContactMe(props, contactMeRef) {
    return (
-      <section ref={contactMeRef} className="py-8 px-36">
+      <section ref={contactMeRef} className="py-8 lg:px-36 px-8 bg-white">
          <h2 className="text-4xl text-PictonBlue font-semibold mb-8">Contact Me</h2>
          <p className="text-DavysGray font-medium mb-8">
             If you&#39;re interested in hiring a passionate frontend developer, I&#39;m always open
