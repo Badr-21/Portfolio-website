@@ -52,7 +52,7 @@ const Home = forwardRef(function Home(props, homeRef) {
             <button className="w-fit flex items-center gap-x-4 relative z-10 p-2 bg-transparent text-left border-2 border-DavysGray rounded-md  transition-color before:absolute before:top-0 before:left-0 before:-z-30 before:h-full before:w-full before:rounded-md before:origin-top-left before:scale-x-0 before:bg-PictonBlue before:transition-transform before:duration-300 before:content-[''] before:text-center before:[@media(hover:hover){&:hover}]:scale-x-100 [@media(hover:hover){&:hover}]:border-transparent">
                <a
                   className="text-RichBlack font-semibold text-lg"
-                  href="../../public/entry-level-web-developer-resume-example.pdf"
+                  href="../../public/Resume.pdf"
                   download
                >
                   Download resume{" "}
