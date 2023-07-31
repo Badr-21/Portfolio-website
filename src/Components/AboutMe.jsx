@@ -9,9 +9,9 @@ import TypeScriptIcon from "../assets/typescript-icon.svg";
 
 const AboutMe = forwardRef(function AboutMe(props, aboutMeRef) {
    return (
-      <section ref={aboutMeRef} className="py-8 lg:px-36 px-8 bg-white">
-         <h2 className="text-4xl text-PictonBlue font-semibold mb-8">About Me</h2>
-         <p className="text-DavysGray font-medium mb-8 leading-8">
+      <section ref={aboutMeRef} className="py-16 lg:px-36 px-8 bg-white">
+         <h2 className="text-4xl text-PictonBlue font-semibold mb-12">About Me</h2>
+         <p className="text-DavysGray font-medium mb-10 leading-8">
             My name is Badreddine Boudaoud. I&#39;m a frontend developer with a master&#39;s degree
             in Electronics of Embedded Systems. In 2021, I embarked on my journey to learn frontend
             development, and it has now become my true passion. With a wealth of expertise in HTML,
