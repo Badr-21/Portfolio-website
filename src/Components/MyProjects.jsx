@@ -83,7 +83,7 @@ const MyProjects = forwardRef(function MyProjects(props, myProjectsRef) {
                <p className="text-DavysGray font-medium mb-4 max-[445px]:text-sm">
                   Book Tracker is a CRUD app using local storage. With Book Tracker, you can write,
                   edit, read, archive, and delete notes. You can organize your books into five
-                  categories: current reading, favorite, to read, have read, and archives. Using the
+                  categories: current reading, favorite, to read, have read, and archived. Using the
                   Google Books API, there are countless books that you can search for.
                </p>
                <div className="flex gap-x-4 mb-4">
