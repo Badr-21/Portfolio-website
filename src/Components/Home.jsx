@@ -59,16 +59,24 @@ const Home = forwardRef(function Home(props, homeRef) {
                </a>
                <img className="w-6" src={DownlaodIcon} alt="downlaod icon" />
             </button>
-            <img
-               className="w-10 [@media(hover:hover){&:hover}]:filter-icon hover:cursor-pointer"
-               src={LinkedinBlackIcon}
-               alt="linkedin icon"
-            />
-            <img
-               className="w-10 [@media(hover:hover){&:hover}]:filter-icon hover:cursor-pointer"
-               src={GithubBlackIcon}
-               alt="github icon"
-            />
+            <a
+               href="https://www.linkedin.com/in/badreddine-boudaoud/"
+               target="_blank"
+               rel="noreferrer"
+            >
+               <img
+                  className="w-10 [@media(hover:hover){&:hover}]:filter-icon hover:cursor-pointer"
+                  src={LinkedinBlackIcon}
+                  alt="linkedin icon"
+               />
+            </a>
+            <a href="https://github.com/Badr-21" target="_blank" rel="noreferrer">
+               <img
+                  className="w-10 [@media(hover:hover){&:hover}]:filter-icon hover:cursor-pointer"
+                  src={GithubBlackIcon}
+                  alt="github icon"
+               />
+            </a>
          </div>
       </section>
    );

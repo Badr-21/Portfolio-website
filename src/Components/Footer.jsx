@@ -8,7 +8,7 @@ function Footer() {
             <p className="text-white font-medium">badreddine.boudaoud.dev@gmail.com</p>
             <div className="flex gap-x-4 flex-shrink-0">
                <a
-                  href="https://www.linkedin.com/in/badreddine-boudaoud-abb61b282/"
+                  href="https://www.linkedin.com/in/badreddine-boudaoud/"
                   target="_blank"
                   rel="noreferrer"
                >
