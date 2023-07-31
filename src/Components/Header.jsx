@@ -29,15 +29,14 @@ function Header({
          } else {
             setShowNavBar(true);
          }
-         setLastScrollY(window.scrollY);
       } else {
          if (window.scrollY > lastScrollY) {
             setShowNavBar(true);
          } else {
             setShowNavBar(true);
          }
-         setLastScrollY(window.scrollY);
       }
+      setLastScrollY(window.scrollY);
    };
 
    useEffect(() => {
@@ -48,7 +47,11 @@ function Header({
    }, [lastScrollY]);
 
    const handleSideBar = () => {
-      setShowSideBar(!showSideBar);
+      if (window.innerWidth < 640) {
+         setShowSideBar(!showSideBar);
+      } else {
+         setShowSideBar(false);
+      }
    };
 
    useEffect(() => {
@@ -68,7 +71,7 @@ function Header({
       <section
          className={`${
             showNavBar ? "top-0" : "top-[-5rem]"
-         }  w-full flex justify-between items-center py-6 px-8 shadow sticky transition-top duration-300 bg-white z-10`}
+         }  w-full flex justify-between items-center py-6 px-8 shadow sticky transition-top duration-300 bg-white z-30`}
       >
          <img
             src={HamburgerIcon}
