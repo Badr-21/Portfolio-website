@@ -17,7 +17,7 @@ function ScrollProgress() {
          });
       };
    }, [height]);
-   return <div ref={scrollerRef} className="bg-PictonBlue h-1 fixed z-20"></div>;
+   return <div ref={scrollerRef} className="bg-PictonBlue h-1 fixed z-40"></div>;
 }
 
 export default ScrollProgress;
